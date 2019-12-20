@@ -1,1 +1,91 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+  }
+  
+  body {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  main {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+  }
+  
+  .caja-login {
 
+    width:  450px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 25px;
+    background-color: rgb(233, 252, 255);
+    border: 2px solid rgb(190, 237, 255);
+    
+  }
+  
+  .caja-login h1 {
+  text-align: center;
+  color: rgb(62, 228, 219);
+  }
+  
+  .formulario-login {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 10px;
+    
+  }
+  
+  .formulario-login small {
+    text-align: center;
+  }
+ 
+  .formulario-login input {
+    margin-top:5px;
+    margin-bottom:5px;
+    font-size:12px;
+  }
+
+  .boton {
+    height: 40px;
+    border-radius: 15px;
+    background:  rgb(62, 228, 219);
+    border: 1px solid rgb(56, 187, 180);
+    color:white;
+
+  }
+  
+  .arribas {
+    height: 40px;
+    border-radius: 15px;
+    border: 1px solid rgb(203, 237, 253);
+    padding-left:10px;
+    color: rgb(62, 228, 219);
+  }
+
+
+  /* Efecto al pasar encima el mouse */
+  .boton:hover {
+    cursor: pointer;
+    background: rgb(45, 156, 156)
+  }
+  
+  .formulario-login small {
+    color: gray;
+  }
+  
+  /* Color de texto de ayuda */
+  .formulario-login input::placeholder {
+    color: rgb(62, 228, 219);
+    opacity: 1;
+  }
