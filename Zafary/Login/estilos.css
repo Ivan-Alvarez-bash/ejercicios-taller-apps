@@ -73,8 +73,6 @@
     color: rgb(62, 228, 219);
   }
 
-
-  /* Efecto al pasar encima el mouse */
   .boton:hover {
     cursor: pointer;
     background: rgb(45, 156, 156)
